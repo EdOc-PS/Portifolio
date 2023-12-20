@@ -1,0 +1,37 @@
+@media screen and (min-width: 992px) {
+
+    /*Responsividade do menu*/
+    nav.menu {
+        min-width: 75px;
+        min-height: 100vh;
+        right: 0;
+        top: 0;
+        
+    }
+    #menu-expand{
+        height: 55px;
+        width: 55px;
+        margin: .5rem;
+        border-radius: 20px;
+    }
+    #menu-expand:hover{
+        background-color: rgb(50, 50, 50);
+    }
+    nav.menu.expanded {
+        width: 15vw;
+    }
+    nav.menu #menu-ul .menu-itens {
+        margin: 1rem 0rem 1rem 0rem;
+    }
+    #menu-ul .menu-itens button {
+        border: 3px solid transparent;
+        height: 55px;
+        width: 55px;
+        margin: .5rem;
+        cursor: pointer;
+    }
+    #menu-ul .menu-itens button:hover{
+        border: 3px solid #4BAEA0;
+        color: #4BAEA0
+    }
+}
