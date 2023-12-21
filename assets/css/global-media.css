@@ -2,7 +2,7 @@
 
     /*Responsividade do menu*/
     nav.menu {
-        min-width: 75px;
+        width: 75px;
         min-height: 100vh;
         right: 0;
         top: 0;
@@ -11,20 +11,28 @@
     #btn-menu-expand {
         height: 55px;
         width: 55px;
-        margin: .5rem;
+        margin: .5rem .5rem 0 .55rem;
         border-radius: 20px;
     }
 
     #btn-menu-expand:hover {
-        background-color: rgb(50, 50, 50);
+      
+        background: linear-gradient(20deg, rgba(35, 39, 47, 0.7) ,   #333a45);
+    }
+
+    nav.menu #menu-ul {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-top: 12.5vh;
     }
 
     nav.menu #menu-ul .menu-itens {
-        margin: 1rem 0rem 1rem 0rem;
+        margin: .5rem 0 .5rem 0;
 
     }
 
-    #menu-ul .menu-itens button {
+    #menu-ul .menu-itens .menu-btn {
         border: 3px solid transparent;
         height: 55px;
         width: 55px;
@@ -33,28 +41,43 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        font-weight: 600;
+        padding: 0;
     }
 
-    #menu-ul .menu-itens button:hover {
-        border: 3px solid #4BAEA0;
-    }
+    #menu-ul .menu-itens .menu-btn:hover {
+        border: 3px solid #08FFC8;
 
-    .menu-itens button .menu-txt {
+    }
+    #menu-ul .menu-itens .menu-btn:hover i{
+       color:  #08FFC8;
+       text-shadow: 0px 0px 20px;
+    }
+    nav.menu #menu-ul .menu-itens {
+        opacity: 1;
+    }
+    .menu-itens .menu-btn .menu-txt {
         display: none;
     }
 
+
 }
 
-/*Responsividade do nav quando ativado*/
+/*Comportamentos do nav quando estiver expandida*/
 @media screen and (min-width: 992px) {
     nav.menu.expanded {
         width: 288px;
+        
     }
-    #menu-ul .menu-itens .btn-active{
-        width: 5vw;
-    }
-    .menu-itens button .actived{
-        display: block;
+   
+    nav.menu.expanded #menu-ul .menu-itens .menu-btn {
+        width: 12vw;
+        padding: .5rem 5rem .5rem 5rem;
+        gap: 3rem;
     }
 
+    nav.menu.expanded .menu-itens .menu-btn .menu-txt {
+        display: block;
+    }
+    
 }
