@@ -19,7 +19,7 @@ nav.menu {
     flex-direction: column;
     overflow: hidden;
 }
-#menu-expand{
+#btn-menu-expand{
     display: flex;
     justify-content: center;
     align-items: center;
