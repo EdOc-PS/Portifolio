@@ -1,3 +1,10 @@
+/*Estilização global*/
+@media screen and (min-width:992px)  {
+    button{
+        cursor: pointer;
+    }
+}
+
 @media screen and (min-width: 992px) {
 
     /*Responsividade do menu*/
@@ -8,16 +15,16 @@
         top: 0;
     }
 
-    #btn-menu-expand {
+    #menu-expand-btn {
         height: 55px;
         width: 55px;
         margin: .5rem .5rem 0 .55rem;
         border-radius: 20px;
     }
 
-    #btn-menu-expand:hover {
+    #menu-expand-btn:hover {
       
-        background: linear-gradient(20deg, rgba(35, 39, 47, 0.7) ,   #333a45);
+        background: linear-gradient(20deg, rgba(35, 39, 47, 0.7) , #333a45);
     }
 
     nav.menu #menu-ul {
@@ -32,7 +39,7 @@
 
     }
 
-    #menu-ul .menu-itens .menu-btn {
+    #menu-ul .menu-itens .menu-a-btn {
         border: 3px solid transparent;
         height: 55px;
         width: 55px;
@@ -43,20 +50,21 @@
         align-items: center;
         font-weight: 600;
         padding: 0;
+        background: transparent;
     }
 
-    #menu-ul .menu-itens .menu-btn:hover {
+    #menu-ul .menu-itens .menu-a-btn:hover {
         border: 3px solid #08FFC8;
 
     }
-    #menu-ul .menu-itens .menu-btn:hover i{
+    #menu-ul .menu-itens .menu-a-btn:hover i{
        color:  #08FFC8;
        text-shadow: 0px 0px 20px;
     }
     nav.menu #menu-ul .menu-itens {
         opacity: 1;
     }
-    .menu-itens .menu-btn .menu-txt {
+    .menu-itens .menu-a-btn .menu-txt {
         display: none;
     }
 
@@ -70,13 +78,14 @@
         
     }
    
-    nav.menu.expanded #menu-ul .menu-itens .menu-btn {
-        width: 12vw;
+    nav.menu.expanded #menu-ul .menu-itens .menu-a-btn {
+        max-width: 12vw;
         padding: .5rem 5rem .5rem 5rem;
         gap: 3rem;
+        flex-direction: row;
     }
 
-    nav.menu.expanded .menu-itens .menu-btn .menu-txt {
+    nav.menu.expanded .menu-itens .menu-a-btn .menu-txt {
         display: block;
     }
     

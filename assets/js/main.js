@@ -1,8 +1,8 @@
 const variable = {
     nav: {
         menu: document.querySelector('.menu'),
-        btnMenuExpand: document.querySelector('#btn-menu-expand'),
-        btnMenu: document.querySelectorAll('.menu-btn'),
+        btnMenuExpand: document.querySelector('#menu-expand-btn'),
+        btnMenu: document.querySelectorAll('.menu-a-btn'),
         txtMenu: document.querySelectorAll('.menu-txt'),
     }
 };
@@ -11,6 +11,4 @@ const variable = {
 //menu se expandir
 variable.nav.btnMenuExpand.addEventListener('click', function () {
     variable.nav.menu.classList.toggle("expanded");
-    
-
 })
