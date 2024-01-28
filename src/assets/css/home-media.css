@@ -1,0 +1,19 @@
+@media screen and (min-width: 992px) {
+    .home-container{
+        width: calc(100% - 75px);
+    }
+    .home-container .home-mensager{
+        display: flex;
+        align-items: center;
+        gap: 1.2rem;
+    }
+    .home-container .home-mensager h1 {
+        font-size: 72px;
+        word-wrap: break-word;
+        width: 310px;
+    }
+    .home-container .home-mensager img {
+        width: 380px;
+        height: auto;
+    }
+}

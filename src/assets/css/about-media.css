@@ -1,0 +1,64 @@
+/**Responsividade da sessão home*/
+@media screen and (min-width: 992px) {
+    section.about{
+        width: calc(100% - 75px);
+        height: 100vh;
+    }
+    .about-container{
+        display: flex;
+        flex-direction: row;   
+
+    }
+
+    /* About - Social*/
+    .about-social-container {
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        padding: none;
+        width: auto;
+        margin-top: 0;
+        width: auto;
+        
+    }
+    .about-social-container .about-mydescreption {
+        text-align: center;
+    }
+    .about-social-container .about-mysocial .mysocial-ul {
+        width: 22.5rem;
+        overflow-x: visible;
+    }
+    
+    
+    .about-mysocial .mysocial-ul .mysocial-itens a{
+        width: 3.5rem;
+        height: 3.5rem;
+        font-size: 1.7rem;
+        border-radius: 50%;
+    }
+   
+    .mysocial-ul .mysocial-itens a:hover i{
+       color:  #08FFC8;
+       text-shadow: 0px 0px 20px;
+
+    }
+    .about-social-container .about-myimg img {
+        max-width: 16.5rem;
+    }
+    .about-social-container .about-mycurriculum .mycurriculum-btn{
+        width: 30rem;
+    }
+    /* About - Informaçoes*/
+    .about-info-container{
+  
+    }
+    .about-info-container .about-info-text{
+        width: 38.5vw;
+        font-size: 19px;
+        padding: 1.6rem 1.2rem;
+    }
+    section.about .about-info-container {
+        gap: 1.5rem;
+    }
+
+}

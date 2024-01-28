@@ -1,8 +1,0 @@
-/*Estilização da section about*/
-section.about {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: aquamarine;
-}

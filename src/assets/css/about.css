@@ -1,0 +1,131 @@
+/*Estilização da section about*/
+section.about {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.about-social-container {
+    display: grid;
+    place-items: center;
+    background: #23272F;
+    border: .5px solid #333A45;
+    box-shadow: 0 0 5px #333A45;
+    padding: 1rem;
+    border-radius: 20px;
+    gap: 3rem;
+    width: 93.5vw;
+    margin-top: 10vh;
+}
+
+/*.about-social-container .about-conta{
+    display: grid;
+    place-items: center;
+    background: #23272F;
+    padding: 1rem;
+    border-radius: 20px;
+    gap: 2rem;
+    width: 93.5vw;
+
+}*/
+.about-social-container .about-myimg img {
+    max-width: 12rem;
+    border-radius: 50%;
+    margin-top: 1.25vh;
+}
+
+.about-social-container .about-mydescreption {
+    font-size: 1.3rem;
+}
+
+
+
+.about-social-container .about-mysocial .mysocial-ul {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: linear-gradient(50deg, #23272FB3, #333A45 90%);
+    gap: 1rem;
+    padding: 1rem;
+    width: 75vw;
+    border-radius: 20px;
+    overflow-x: scroll;
+}
+
+.about-mysocial .mysocial-ul .mysocial-itens a {
+    width: 3.2rem;
+    height: 3.2rem;
+    font-size: 1.4rem;
+}
+
+
+.about-social-container .about-mycurriculum .mycurriculum-btn {
+    background-color: #08FFC8;
+    color: #23272F;
+    width: 85vw;
+    max-height: 15vh;
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    font-weight: 800;
+    gap: .7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mycurriculum-btn i {
+    color: #23272F;
+}
+
+
+/*Estilização da section about*/
+
+
+section.about .about-info-container {
+    gap: .8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-info-container .about-info-title {
+    text-indent: .5rem;
+    font-size: 18px;
+}
+
+.about-info-container .about-info-text {
+    padding: 1.3rem 1rem;
+    border-radius: 20px;
+    background: #23272F;
+    border: .5px solid #333A45;
+    width: 93.5vw;
+    font-size: 1.15rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    word-spacing: 1px;
+    font-weight: 400;
+}
+
+.about-info-container .about-info-text i {
+    font-size: 2.2rem;
+}
+
+.about-info-container .about-info-img {
+    margin-right: 33.5%;
+    margin-left: 33.5%;
+    opacity: .9;
+}
+
+.about-info-container .about-info-img img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}

@@ -1,0 +1,38 @@
+section.home{
+    height: 100vh;
+    background-color: #1B1E24;
+    
+}
+.home-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.home-container .home-mensager h1{
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.home-container .home-mensager img{
+    width: 260px;
+    height: auto;
+}
+.home-container .home-explore{
+    display: flex;
+    position: absolute;
+    bottom: 5%;
+}
+.home-container .home-explore .home-a-btn{
+    font-size: 18px;
+    background: linear-gradient(50deg, #23272FB3, #333A45 90%);
+    border-radius:20px;
+    padding: .35rem 2.8rem;
+    border: .5px solid #333A45;
+    gap: .7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
