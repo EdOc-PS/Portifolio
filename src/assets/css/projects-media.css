@@ -1,0 +1,5 @@
+@media screen and (min-width: 992px) {
+    .section-projects {
+        width: calc(100% - 75px);
+    }
+}

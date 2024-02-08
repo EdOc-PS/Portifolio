@@ -5,12 +5,13 @@ section.about {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 1rem 0;
 }
 
 .about-container {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    
 }
 
 .about-social-container {
@@ -23,7 +24,7 @@ section.about {
     border-radius: 20px;
     gap: 3rem;
     width: 93.5vw;
-    margin-top: 10vh;
+    margin-top: 8vh;
 }
 
 /*.about-social-container .about-conta{
@@ -87,45 +88,85 @@ section.about {
 
 /*Estilização da section about*/
 
-
 section.about .about-info-container {
     gap: .8rem;
     display: flex;
     flex-direction: column;
 }
 
-.about-info-container .about-info-title {
-    text-indent: .5rem;
+.about-info-highlight .about-info-title,
+.about-info-another .about-info-title {
+    padding: .6rem .3rem;
+    
+}
+
+.about-info-highlight .about-info-title h3,
+.about-info-another .about-info-title h3 {
+    display: flex;
+    align-items: center;
+    width: auto;
+    color: #99A1B3;
     font-size: 18px;
 }
 
-.about-info-container .about-info-text {
+.about-info-highlight .about-info-title h3::after,
+.about-info-another .about-info-title h3::after {
+    content: '';
+    border-radius: 20px;
+    height: 3px;
+    position: relative;   
+    background-color: #99A1B3;
+    width: 100%;
+    margin-left: 15px;
+}
+
+
+.about-info-container .about-info-text,
+.about-more-infos .about-more-text {
     padding: 1.3rem 1rem;
     border-radius: 20px;
     background: #23272F;
     border: .5px solid #333A45;
     width: 93.5vw;
-    font-size: 1.15rem;
+    font-size: 16px;
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: .8rem;
     word-spacing: 1px;
     font-weight: 400;
 }
 
-.about-info-container .about-info-text i {
-    font-size: 2.2rem;
+.about-info-container .about-info-text i,
+.about-info-container .about-more-text i {
+    font-size: 2rem;
 }
 
 .about-info-container .about-info-img {
-    margin-right: 33.5%;
-    margin-left: 33.5%;
-    opacity: .9;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .about-info-container .about-info-img img {
     width: 130px;
     height: 130px;
     border-radius: 50%;
+    margin-top: 2rem;
+}
+
+/*cards informativos */
+.about-info-container .about-more-infos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: .5rem;
+}
+
+.about-more-infos .about-more-text {
+    width: 45vw;
+    height: 20vh;
+    gap: 1.2rem;
+    margin: .1rem 0;
 }

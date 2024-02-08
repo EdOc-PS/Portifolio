@@ -1,0 +1,23 @@
+section.section-projects {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #23272F;
+    border: .5px solid #333A45;
+    box-shadow: 0 0 5px #333A45;
+    border-radius: 20px;
+    padding: 1rem 0;
+    width: 93.5vw;
+    margin-top: 10vh;
+    place-items: center;
+   
+}
+card-works {
+    margin: .5rem 0;
+}
