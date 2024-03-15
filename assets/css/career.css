@@ -4,6 +4,66 @@ section.career {
     place-items: center;
 
 }
-section.career i{
-    font-size: 100px;
+
+section.career .career-container {
+    display: flex;
+    flex-direction: column;
+    width: 93.5vw;
+}
+
+.career-container .historic-career-container {
+    background-color: red;
+    padding: 10px;
+}
+
+.career-container .another-info-career {
+
+}
+
+.career-container .another-info-career .technologies-career {
+    background: #23272F;
+    border-radius: 10px;
+    border: .5px solid #333A45;
+    box-shadow: 0 0 5px #333A45;
+    padding: .6rem .3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+
+.another-info-career .technologies-career .career-tec-title h3 {
+    display: flex;
+    align-items: center;
+    width: auto;
+    color: #99A1B3;
+    font-size: 18px;
+}
+
+.another-info-career .technologies-career .career-tec-title h3::after {
+    content: '';
+    border-radius: 20px;
+    height: 3px;
+    position: relative;
+    background-color: #99A1B3;
+    width: 100%;
+    margin-left: 15px;
+}
+
+.tec-body {
+    width: 90px;
+    border-radius: 15px;
+    background-color: #333A45;
+    border-bottom: 1.5px solid #08FFC8;
+}
+
+.tec-info {
+    padding: .5rem .7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tec-info img {
+    width: 25px;
+    height: auto;
 }
