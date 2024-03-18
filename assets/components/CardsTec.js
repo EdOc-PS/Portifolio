@@ -34,7 +34,7 @@ class CardsTec extends HTMLElement {
         const style = document.createElement("style");
         style.textContent = `
             .tec-body {
-                width: 100px;
+                padding: .1.6rem;
                 border-radius: 5px;
                 font-weight: 600;
             }
@@ -42,10 +42,10 @@ class CardsTec extends HTMLElement {
             .tec-info {
                 padding: .5rem .7rem;
                 display: flex;
-                justify-content: space-between;
                 align-items: center;
                 text-transform: uppercase;
                 font-size: 14px;
+                gap: .8rem
             }
             
             .tec-info img {

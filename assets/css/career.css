@@ -16,41 +16,46 @@ section.career .career-container {
 
 .career-container .historic-career-container {
     height: 45vh;
+ 
 }
 
-.career-container .another-info-career .technologies-career{
+.another-info-career .technologies-career .career-tec-content{
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.career-container .another-info-career .technologies-career,
-.career-container .another-info-career .diplomer-career,
+.another-info-career .technologies-career .career-tec-content,
+.another-info-career .diplomer-career .career-dip-content,
 .career-container .historic-career-container{
     background: #23272F;
     border-radius: 10px;
     border: .5px solid #333A45;
-    padding: .7rem 0rem;
+    padding: .7rem;
     display: flex;
     gap: 1rem;
-   x
+   
 }
 
-.another-info-career .career-tec-title,
-.career-container .career-tec-title{
+.another-info-career .technologies-career .career-title,
+.another-info-career .diplomer-career .career-title,
+.career-container .career-title{
     padding: 1rem 0;
 }
 
-.another-info-career .career-tec-title h3,
-.career-container .career-tec-title h3 {
+.another-info-career .technologies-career .career-title h3,
+.another-info-career .diplomer-career .career-title h3,
+.career-container .careertitle h3 {
     display: flex;
     align-items: center;
     width: auto;
     color: #99A1B3;
     font-size: 18px;
+
 }
 
-.another-info-career .career-tec-title h3::after,
-.career-container .career-tec-title h3::after {
+.another-info-career .technologies-career.career-title h3::after,
+.another-info-career .diplomer-career .career-title h3::after,
+.career-container .career-title h3::after {
     content: '';
     border-radius: 20px;
     height: 3px;
