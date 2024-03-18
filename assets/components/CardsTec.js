@@ -7,63 +7,49 @@ class CardsTec extends HTMLElement {
         shadow.appendChild(this.style());
     }
     build() {
-        const CardTecBody = document.createElement("div");
-        CardTecBody.setAttribute("class", "card-works-container");
+        const cardTecBody = document.createElement("div");
+        cardTecBody.setAttribute("class", "tec-body");
+        cardTecBody.style.backgroundColor = this.getAttribute("color")
 
-
-
-        const cardImg = document.createElement("div");
-        cardImg.setAttribute("class", "card-img");
-
-        const img = document.createElement("img");
-        img.src = this.getAttribute("image");
-        img.alt = "project";
-
-        const progress = document.createElement("span");
-        progress.textContent = this.getAttribute("progress");
-
-        cardImg.appendChild(img);
-        cardImg.appendChild(progress);
-
-        const cardInfo = document.createElement("div");
-        cardInfo.setAttribute("class", "card-info");
-
-        const nameProject = document.createElement("h5");
-        nameProject.textContent = this.getAttribute("name");
+        const tecInfo = document.createElement("div");
+        tecInfo.setAttribute("class", "tec-info");
 
         const icon = document.createElement("img");
-        icon.src = this.getAttribute("icone");
+        icon.src = this.getAttribute("icon");
         icon.alt = "icon";
-        icon.setAttribute("class", "card-icons");
+     
 
-        cardInfo.appendChild(nameProject);
-        cardInfo.appendChild(icon);
+        const name = document.createElement("span");
+        name.textContent = this.getAttribute("name");
+        icon.setAttribute("class", "tec-name");
 
-        cardWorksContainer.appendChild(cardImg);
-        cardWorksContainer.appendChild(cardInfo);
+        tecInfo.appendChild(icon);
+        tecInfo.appendChild(name);
+        cardTecBody.appendChild(tecInfo);
 
-        return cardWorksContainer;
+        return cardTecBody;
     }
 
     style() {
         const style = document.createElement("style");
         style.textContent = `
             .tec-body {
-                width: 90px;
-                border-radius: 15px;
-                background-color: #333A45;
-                border-bottom: 1.5px solid #08FFC8;
+                width: 100px;
+                border-radius: 5px;
+                font-weight: 600;
             }
-
+            
             .tec-info {
                 padding: .5rem .7rem;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                text-transform: uppercase;
+                font-size: 14px;
             }
-
+            
             .tec-info img {
-                width: 25px;
+                width: 20px;
                 height: auto;
             }
         `;
