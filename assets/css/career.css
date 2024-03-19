@@ -25,7 +25,7 @@ section.career .career-container {
 }
 
 .another-info-career .technologies-career .career-tec-content,
-.another-info-career .diplomer-career .career-dip-content,
+.another-info-career .publi-career .career-publi-content,
 .career-container .historic-career-container{
     background: #23272F;
     border-radius: 10px;
@@ -37,13 +37,13 @@ section.career .career-container {
 }
 
 .another-info-career .technologies-career .career-title,
-.another-info-career .diplomer-career .career-title,
+.another-info-career .publi-career .career-title,
 .career-container .career-title{
     padding: 1rem 0;
 }
 
 .another-info-career .technologies-career .career-title h3,
-.another-info-career .diplomer-career .career-title h3,
+.another-info-career .publi-career .career-title h3,
 .career-container .careertitle h3 {
     display: flex;
     align-items: center;
@@ -54,7 +54,7 @@ section.career .career-container {
 }
 
 .another-info-career .technologies-career.career-title h3::after,
-.another-info-career .diplomer-career .career-title h3::after,
+.another-info-career .publi-career .career-title h3::after,
 .career-container .career-title h3::after {
     content: '';
     border-radius: 20px;
@@ -66,3 +66,24 @@ section.career .career-container {
 
 }
 
+.publi-body{
+    background-color:cadetblue;
+    padding: 1rem 0.7rem;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    gap: .8rem;
+    border-radius: 10px;
+    width: 100%;
+    text-decoration: none;
+}
+.publi-body i{
+    font-size: 24px;
+}
+.publi-type{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    font-size: 12px;
+} 

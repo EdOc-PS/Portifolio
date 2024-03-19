@@ -21,7 +21,10 @@ body {
 a {
     text-decoration: none;
 }
-
+i{
+    display: flex;
+    align-items: center;
+}
 
 
 button,
@@ -109,15 +112,13 @@ footer.footer{
     place-items: center;
     position: relative;
     width: 100%;
-    border-bottom: 2px solid #EBECF0;
-    bottom: 100%;
 }
 footer.footer span{
-    height: 2px;
+    height: 1px;
     width: 100%;
     background: linear-gradient(90deg, #ff5e84 0%, #6f61c0 50%, #08ffc8 100%);
 } 
 footer.footer p {
     padding: .5rem 0;
-    font-size: 12px;
+    font-size: 10px;
 }

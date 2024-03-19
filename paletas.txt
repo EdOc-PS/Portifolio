@@ -6,3 +6,4 @@
 #99A1B3
 #828282
 #609DFF
+background: linear-gradient(90deg, #a67348 0%, #775a8c 50%, #316c74 100%);

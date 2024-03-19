@@ -73,7 +73,9 @@
     .about-info-another .about-more-infos .about-more-text {
         width: 13vw;
     }
-
+    .about-info-highlight .about-info-title{
+        margin-top: 0;
+    }
     .about-info-highlight .about-info-title,
     .about-info-another .about-info-title {
         text-align: center;
