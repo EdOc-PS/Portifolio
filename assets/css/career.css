@@ -66,24 +66,6 @@ section.career .career-container {
 
 }
 
-.publi-body{
-    background-color:cadetblue;
-    padding: 1rem 0.7rem;
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    gap: .8rem;
-    border-radius: 10px;
-    width: 100%;
-    text-decoration: none;
+.another-info-career .publi-career .career-publi-content{
+    flex-direction: column;
 }
-.publi-body i{
-    font-size: 24px;
-}
-.publi-type{
-    display: flex;
-    justify-content: end;
-    width: 100%;
-    font-size: 12px;
-} 
