@@ -6,18 +6,40 @@ section.section-projects {
 }
 
 .container-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
     background: #23272F;
     border: .5px solid #333A45;
     box-shadow: 0 0 5px #333A45;
     border-radius: 20px;
-    padding: 1rem 0;
+    padding: 1rem;
     width: 93.5vw;
-    margin-top: 10vh;
-    place-items: center;
+    justify-content: center;
    
 }
+.projects-container .projects-title{
+    padding: 1rem 0;
+}
+.projects-container .projects-title h3 {
+    display: flex;
+    align-items: center;
+    width: auto;
+    color: #99A1B3;
+    font-size: 18px;
+
+}
+.projects-container .projects-title h3::before {
+    content: '';
+    border-radius: 20px;
+    height: 3px;
+    position: relative;
+    background-color: #99A1B3;
+    width: 100%;
+    margin-right: 15px;
+
+}
+
 card-works {
     margin: .5rem 0;
 }

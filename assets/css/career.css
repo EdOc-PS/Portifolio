@@ -30,7 +30,7 @@ section.career .career-container {
     background: #23272F;
     border-radius: 10px;
     border: .5px solid #333A45;
-    padding: .7rem;
+    padding: .75rem;
     display: flex;
     gap: 1rem;
    
@@ -44,7 +44,7 @@ section.career .career-container {
 
 .another-info-career .technologies-career .career-title h3,
 .another-info-career .publi-career .career-title h3,
-.career-container .careertitle h3 {
+.career-container .career-title h3 {
     display: flex;
     align-items: center;
     width: auto;

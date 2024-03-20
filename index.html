@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="assets/css/home-media.css" />
   <link rel="stylesheet" href="assets/css/projects-media.css" />
   <link rel="stylesheet" href="assets/css/career-media.css" />
+
   <title>ME</title>
 </head>
 
@@ -156,7 +157,7 @@
             </div>
 
             <div class="about-more-text">
-              <i class="fi fi-sr-bug"></i>
+              <i class="fi fi-sr-mug-hot-alt"></i>
               <h4> Programador Java </h4>
             </div>
 
@@ -175,59 +176,66 @@
 
   <section class="career" id="section-career">
     <div class="career-container">
-
-      <!--historico de carreira-->
+    <!--Titulo de carreira-->  
       <div class="career-title">
         <h3>Carreira</h3>
       </div>
-      <div class="historic-career-container"></div>
-      <!--outras informaçoes-->
-      <div class="another-info-career">
-        <!--Tecnologias-->
-        <div class="technologies-career">
-          <div class="career-title">
-            <h3>Tecnologias</h3>
-          </div>
-          <div class="career-tec-content">
-            <card-tec icon="./assets/img/icons/java-w.svg" name="Java" color="#F89820"></card-tec>
-            <card-tec icon="./assets/img/icons/html5-w.svg" name="Html" color="#E34C26"></card-tec>
-            <card-tec icon="./assets/img/icons/css3-w.svg" name="Css" color="#1572B6"></card-tec>
-            <card-tec icon="./assets/img/icons/javascript-w.svg" name="Javascript" color="#323330 "></card-tec>
-            <card-tec icon="./assets/img/icons/angular-w.svg" name="Angular" color="#D4173B"></card-tec>
-            <card-tec icon="./assets/img/icons/typescript-w.svg" name="Typescript" color="#3178C6"></card-tec>
-          </div>
+      <div class="career-containt">
+        <!--historico de carreira-->     
+        <div class="historic-career-container">
         </div>
-        <!--Publicações-->
-        <div class="publi-career">
-          <div class="career-title">
-            <h3>Publicações</h3>
+        <!--outras informaçoes-->
+        <div class="another-info-career">
+          <!--Tecnologias-->
+          <div class="technologies-career">
+            <div class="career-title">
+              <h3>Tecnologias</h3>
+            </div>
+            <div class="career-tec-content">
+              <card-tec icon="./assets/img/icons/java-w.svg" name="Java" color="#F89820"></card-tec>
+              <card-tec icon="./assets/img/icons/html5-w.svg" name="Html" color="#E34C26"></card-tec>
+              <card-tec icon="./assets/img/icons/css3-w.svg" name="Css" color="#1572B6"></card-tec>
+              <card-tec icon="./assets/img/icons/javascript-w.svg" name="Javascript" color="#323330 "></card-tec>
+              <card-tec icon="./assets/img/icons/angular-w.svg" name="Angular" color="#D4173B"></card-tec>
+              <card-tec icon="./assets/img/icons/typescript-w.svg" name="Typescript" color="#3178C6"></card-tec>
+              <card-tec icon="./assets/img/icons/mysql-w.svg" name="MySQL" color="#4479A1"></card-tec>
+            </div>
           </div>
-          <div class="career-publi-content">
+          <!--Publicações-->
+          <div class="publi-career">
+            <div class="career-title">
+              <h3>Publicações</h3>
+            </div>
+            <div class="career-publi-content">
 
-          <card-publi 
-            link="https://www.dio.me/certificate/MNBOJ89U"
-            icon = "./assets/img/icons/distintivo.png"
-            title="Desenvolvimento Frontend com Angular"
-            desc="Certificado - DIO">
-          </card-publi>    
+            <card-publi 
+              link="https://www.dio.me/certificate/MNBOJ89U"
+              icon = "./assets/img/icons/distintivo.png"
+              title="Desenvolvimento Frontend com Angular"
+              desc="Certificado - DIO">
+            </card-publi>    
 
-          <card-publi 
-            link="https://www.dio.me/certificate/DFA38344"
-            icon = "./assets/img/icons/distintivo.png"
-            title="Potência Tech iFood - Desenvolvimento de Jogos"
-            desc="Certificado - DIO">
-          </card-publi>    
+            <card-publi 
+              link="https://www.dio.me/certificate/DFA38344"
+              icon = "./assets/img/icons/distintivo.png"
+              title="Potência Tech iFood - Desenvolvimento de Jogos"
+              desc="Certificado - DIO">
+            </card-publi>    
 
-          </div>
+            </div>
+        </div>
+        </div>
       </div>
-      </div>
-
     </div>
   </section>
 
   <section class="section-projects" id="section-projects">
+  <div class="projects-container">
+    <div class="projects-title">
+      <h3>Projetos</h3>
+    </div>
+
     <div class="container-cards">
-     
       <card-works 
         link="https://github.com/EdOc-PS/Projeto-Jaboc"
         image="./assets/img/Jaboc.png" 
@@ -250,6 +258,7 @@
       ></card-works>
 
     </div>
+  </div>
   </section>
 
   <footer class="footer">

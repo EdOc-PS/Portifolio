@@ -2,4 +2,23 @@
     .section-projects {
         width: calc(100% - 75px);
     }
+    .projects-container{
+        width: 80.5%;
+    }
+    .container-cards{
+        background-color: transparent;
+        box-shadow: none;
+        border: none;
+        width: 100%
+    }
+    .projects-container .projects-title h3::after {
+        content: '';
+        border-radius: 20px;
+        height: 3px;
+        position: relative;
+        background-color: #99A1B3;
+        width: 100%;
+        margin-left: 15px;
+    
+    }
 }
