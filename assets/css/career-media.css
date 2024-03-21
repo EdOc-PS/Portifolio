@@ -2,31 +2,42 @@
     section.career {
         width: calc(100% - 75px);
     }
-    section.career .career-container{
+
+    section.career .career-container {
         width: 80.5%;
     }
-    .career-container .career-containt{
+
+    .career-container .career-containt {
         display: flex;
         flex-direction: column;
         gap: 5rem;
     }
-    
+    .career-container .career-title h3{
+        font-size: 24px;
+    }
     .career-container .another-info-career {
         display: flex;
         justify-content: space-between;
         width: 100%;
         justify-content: space-evenly;
     }
+
     .another-info-career .technologies-career,
-    .another-info-career .publi-career{
+    .another-info-career .publi-career {
         width: 36.5%;
     }
 
-    .another-info-career .publi-career .career-title h3::after{
+
+    .another-info-career .publi-career .career-title h3,
+    .another-info-career .technologies-career .career-title h3 {
+        font-size: 21px;
+    }
+
+    .another-info-career .publi-career .career-title h3::after {
         content: none;
     }
 
-    .another-info-career .publi-career .career-title h3::before{
+    .another-info-career .publi-career .career-title h3::before {
         content: '';
         border-radius: 20px;
         height: 3px;
@@ -35,8 +46,9 @@
         width: 100%;
         margin-right: 15px;
     }
-    .another-info-career .publi-career .career-publi-content{
+
+    .another-info-career .publi-career .career-publi-content {
         padding: .75rem 2rem;
     }
- 
+
 }

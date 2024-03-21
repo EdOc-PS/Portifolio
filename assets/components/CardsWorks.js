@@ -16,7 +16,7 @@ class CardWorks extends HTMLElement {
         cardImg.setAttribute("class", "card-img");
 
         const img = document.createElement("img");
-        img.src = this.getAttribute("image");
+        img.src = "./assets/img/projects/"+this.getAttribute("image");
         img.alt = "project"
 
         const progress = document.createElement("span");
@@ -32,7 +32,7 @@ class CardWorks extends HTMLElement {
         nameProject.textContent = this.getAttribute("name");
 
         const icon = document.createElement("img");
-        icon.src = this.getAttribute("icone");
+        icon.src = "./assets/img/icons/"+this.getAttribute("icone");
         icon.alt = "icon"
         icon.setAttribute("class", "card-icons");
    

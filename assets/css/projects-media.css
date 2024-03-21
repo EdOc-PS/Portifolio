@@ -11,6 +11,9 @@
         border: none;
         width: 100%
     }
+    .projects-container .projects-title h3{
+        font-size: 24px;
+    }
     .projects-container .projects-title h3::after {
         content: '';
         border-radius: 20px;
