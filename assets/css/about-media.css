@@ -56,10 +56,12 @@
     }
 
     /* About - Informaçoes*/
-
-
-    .about-info-container .about-info-highlight .about-info-text {
+    .about-info-highlight {
         width: 40.3vw;
+    }
+    
+    .about-info-container .about-info-highlight .about-info-text{
+        width: 100%;
         font-size: 19px;
         padding: 1.6rem 1.2rem;
     }
@@ -103,5 +105,9 @@
     .about-info-another .about-info-title h3::before{
         margin-right: 15px;
         margin-left: 0;
+    }
+
+     .about-info-img img{
+        height: 200px;
     }
 }

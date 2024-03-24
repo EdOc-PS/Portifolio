@@ -41,7 +41,7 @@ class CardsPubli extends HTMLElement {
         const style = document.createElement("style");
         style.textContent = `
             .publi-body{
-                background-color:cadetblue;
+                background: linear-gradient(220deg, #23272FB3, #333A45 80%);
                 padding: .6rem 0.7rem;
                 display: flex;
                 align-items: center;
@@ -54,19 +54,25 @@ class CardsPubli extends HTMLElement {
             }
             .publi-body img{
                 display:flex;
-                background-color: rgb(79, 131, 132);
+                background-color: #08FFC8;
                 padding: .7rem;
                 border-radius: 10px;
             }
             .publi-info{
                 width: 100%;
             }
+
+            .publi-info p{
+                color: #99A1B3;
+            } 
+
             .publi-info p, .publi-info h5{
                 text-align: end;
                 font-size: 12px;
-            } 
+            }
+          
             h5, p{
-                margin: 0
+                margin: 0;
             }
         `;
         return style;

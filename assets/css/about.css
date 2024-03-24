@@ -94,6 +94,13 @@ section.about .about-info-container {
     flex-direction: column;
 }
 
+.about-info-highlight{
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 93.5vw;
+}
+
 .about-info-highlight .about-info-title,
 .about-info-another .about-info-title {
     padding: 1rem .3rem;
@@ -127,7 +134,7 @@ section.about .about-info-container {
     border-radius: 20px;
     background: #23272F;
     border: .5px solid #333A45;
-    width: 93.5vw;
+    width: 100%;
     font-size: 16px;
     text-align: center;
     display: flex;
@@ -143,17 +150,16 @@ section.about .about-info-container {
     font-size: 2rem;
 }
 
-.about-info-container .about-info-img {
-    width: 100%;
+ .about-info-img {
     display: flex;
     justify-content: center;
+    
 }
 
-.about-info-container .about-info-img img {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    margin-top: 2rem;
+ .about-info-img img {
+    width: auto;
+    height: 120px;
+    border-radius: 15px;    
 }
 
 /*cards informativos */

@@ -16,11 +16,18 @@ section.section-projects {
     padding: 1rem;
     width: 93.5vw;
     justify-content: center;
-   
 }
-.projects-container .projects-title{
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.projects-container .projects-title {
     padding: 1rem 0;
 }
+
 .projects-container .projects-title h3 {
     display: flex;
     align-items: center;
@@ -29,6 +36,7 @@ section.section-projects {
     font-size: 18px;
 
 }
+
 .projects-container .projects-title h3::before {
     content: '';
     border-radius: 20px;
@@ -40,6 +48,19 @@ section.section-projects {
 
 }
 
+.projects-gif{
+    display: flex;
+    justify-content: center;
+}
+
+.projects-gif img{
+    width: auto;
+    height: 120px;
+    border-radius: 15px
+}
+
 card-works {
     margin: .5rem 0;
 }
+
+

@@ -112,7 +112,7 @@ footer.footer{
     display: grid;
     place-items: center;
     position: relative;
-    width: 100%;
+    width: calc(100% - 75);
 }
 footer.footer span{
     height: 1px;
