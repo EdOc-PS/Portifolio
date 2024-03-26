@@ -24,9 +24,13 @@
         margin-left: 15px;
     
     }
-    .projects-gif img{
-        height: 220px;
+    .projects-gif{
+        width: 100%;
     }
+    .projects-gif img{
+        width: 45%;
+    }
+    
 
    
 }

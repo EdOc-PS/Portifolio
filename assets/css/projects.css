@@ -51,11 +51,12 @@ section.section-projects {
 .projects-gif{
     display: flex;
     justify-content: center;
+    width: 93.5vw;
 }
 
 .projects-gif img{
-    width: auto;
-    height: 120px;
+    width: 100%;
+    height: auto;
     border-radius: 15px
 }
 

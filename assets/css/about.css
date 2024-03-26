@@ -157,8 +157,8 @@ section.about .about-info-container {
 }
 
  .about-info-img img {
-    width: auto;
-    height: 120px;
+    width: 100%;
+    height: auto;
     border-radius: 15px;    
 }
 
