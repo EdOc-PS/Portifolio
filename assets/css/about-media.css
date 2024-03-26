@@ -107,8 +107,12 @@
         margin-left: 0;
     }
 
+    .about-info-img{
+        background-color: #7E8D9B;
+        border-radius: 15px;
+    }
      .about-info-img img{
-        width: 85%;
-        height: auto;
+        width: auto;
+        height: 150px;
     }
 }
