@@ -58,6 +58,8 @@
     /* About - Informaçoes*/
     .about-info-highlight {
         width: 40.3vw;
+        gap: 1.5rem;
+        
     }
     
     .about-info-container .about-info-highlight .about-info-text{
@@ -65,7 +67,11 @@
         font-size: 19px;
         padding: 1.6rem 1.2rem;
     }
-
+    .about-info-another{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
     .about-info-container .about-more-infos {
         flex-direction: row;
         gap: .8rem;

@@ -8,8 +8,13 @@ section.home{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 3rem;
+}
+.home-container .home-mensager{
+    height: 40vh;
+    display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 2rem
 }
 .home-container .home-mensager h1{
     font-size: 32px;
@@ -29,8 +34,10 @@ section.home{
     font-size: 18px;
     background: linear-gradient(50deg, #23272FB3, #333A45 90%);
     border-radius:20px;
-    padding: .35rem 2.8rem;
+    padding: .7rem 2.5rem;
     border: .5px solid #333A45;
+    font-size: 14px;
+    font-weight: 600;
     gap: .7rem;
     display: flex;
     align-items: center;
