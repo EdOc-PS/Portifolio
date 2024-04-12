@@ -16,6 +16,12 @@ section.career .career-container {
 
 .career-container .historic-career-container {
     height: 45vh;
+    flex-direction: column;
+    background: #23272F;
+    border-radius: 10px;
+    border: .5px solid #333A45;
+    padding: 1.6rem .75rem .75rem .75rem;
+    display: flex;
  
 }
 
@@ -25,8 +31,7 @@ section.career .career-container {
 }
 
 .another-info-career .technologies-career .career-tec-content,
-.another-info-career .publi-career .career-publi-content,
-.career-container .historic-career-container{
+.another-info-career .publi-career .career-publi-content{
     background: #23272F;
     border-radius: 10px;
     border: .5px solid #333A45;
@@ -68,4 +73,63 @@ section.career .career-container {
 
 .another-info-career .publi-career .career-publi-content{
     flex-direction: column;
+}
+
+.card-career{
+    display: flex;
+    height: 10vh;
+
+}
+.career-itens{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: end;
+    padding: 0 1rem
+}
+.career-control{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.career-control img{
+    
+    width: 30px;
+    height: 100%;
+    border-radius: 50%;
+}
+.career-name{
+    text-align: end;
+    word-break: break-word;
+    font-size: 14px;
+    font-weight: 800;   
+}
+.career-local,
+.career-data{
+    font-size: 12px;
+}
+
+.career-space{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+.career-ball{
+    width: 22px;
+    height: 29px;
+    display: flex;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px solid #4BAEA0;
+}
+
+
+.career-line {
+    height: 100%;
+    display: block;
+    width: 3px;
+    background: #4BAEA0;
+ 
 }
