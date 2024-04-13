@@ -184,27 +184,30 @@
 
 
       <div class="career-containt">
-        <!--historico de carreira-->     
-        <div class="historic-career-container">
-
-
-
-          <div class="card-career">
-            <div class="career-itens">
-              <div class="career-control">
-                <h3 class="career-name">Técnico em Informatica</h3>
-                <img src="./assets/img/icons/IFMG.png" alt="">
-              </div>
-             
-              <samp class="career-local"> IFMG-OB </samp>
-              <samp class="career-data"> 2020-2022 </samp>
-            </div>  
-            <div class="career-space">
-              <span class="career-ball"></span>
-              <span class="career-line"></span>
-            </div>
+        <!--historico de carreira--> 
+        <div class="control-gif">
+          <div class="career-gif">
+            <img src="./assets/img/batman.gif" loop=infinite />
           </div>
+        </div>  
 
+        <div class="historic-career-container">
+          
+          <card-career
+          icon="IFMG.png"
+          title="Tecnico em Informática"
+          local="IFMG-OB"
+          data="2020-2023"
+          ></card-career>
+
+          <card-career
+          icon="IFMG.png"
+          title="Sistemas de Informação"
+          local="IFMG-OB"
+          data="2023-2027"
+          side="right"
+          ></card-career>
+          
         </div>
         <!--outras informaçoes-->
         <div class="another-info-career">
@@ -289,7 +292,7 @@
       <card-works 
       link="https://github.com/EdOc-PS/Jogo-da-Memoria"
       image="jogo-da-memoria.png"
-      progress="novo" 
+      progress="codando" 
       name="Jogo da Memoria" 
       desc="Web Jogo"
       icone="javascript-w.svg"
@@ -302,13 +305,14 @@
 
   <footer class="footer">
     <span></span>
-    <p class="copy">© 2024 - Eduardo Octavio - v0.4</p>
+    <p class="copy">© 2024 - Eduardo Octavio - v0.42</p>
   </footer>
   
   <script defer src="assets/js/main.js"></script>
   <script defer src="assets/components/CardsWorks.js"></script>
   <script defer src="assets/components/CardsTec.js"></script>
   <script defer src="assets/components/CardsPubli.js"></script>
+  <script defer src="assets/components/CardsCareer.js"></script>
 </body>
 
 </html>

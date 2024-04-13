@@ -12,14 +12,23 @@
         flex-direction: column;
         gap: 5rem;
     }
-    .career-container .career-title h3{
+
+    .career-container .career-title h3 {
         font-size: 24px;
     }
+
     .career-container .another-info-career {
         display: flex;
         justify-content: space-between;
         width: 100%;
         justify-content: space-evenly;
+    }
+
+    .career-container .historic-career-container {
+        background: transparent;
+        border: none;
+        flex-direction: row;
+        height: 30.5vh;
     }
 
     .another-info-career .technologies-career,
@@ -50,5 +59,18 @@
     .another-info-career .publi-career .career-publi-content {
         padding: .75rem 2rem;
     }
+
+    .career-gif{
+        width: 65%;
+        background-color:#D2596B ;
+        border-radius: 15px;
+    }
+    .career-gif img{
+        width: auto;
+        height: 180px;
+        border-radius: 0;
+
+    }
+
 
 }

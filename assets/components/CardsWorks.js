@@ -65,7 +65,7 @@ class CardWorks extends HTMLElement {
         cardWorksContainer.appendChild(progressBar);
         cardWorksContainer.appendChild(cardInfo);
 
-        this.verificationProgress(progress, progressBar, );
+        this.verificationProgress(progress, progressBar);
         return cardWorksContainer;
     }
 
