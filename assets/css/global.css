@@ -50,10 +50,11 @@ nav.menu i,
 nav.menu {
     position: fixed;
     background-color: #23272F;
+    border-bottom: 1px solid #333A45;
     width: 100%;
     height: 70px;
     overflow: hidden;
-    z-index: 2;
+    z-index: 10;
 }
 
 #menu-expand-btn {

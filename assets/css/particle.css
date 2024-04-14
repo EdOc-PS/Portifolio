@@ -1,0 +1,323 @@
+.particles-container{
+    z-index: 2;
+}
+
+.particle-iten{
+    position:absolute;
+    border-radius: 50%;
+    background-color: #99A1B3;
+    box-shadow: 0 0 5px #99A1B3;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+}
+.particle-iten:nth-child(odd){
+    width: 14px;
+    height: 14px;
+   
+}
+.particle-iten:nth-child(even){
+    box-shadow: 0 0 8px #08FFC8;
+    background-color: #08FFC8;
+    width: 9px;
+    height: 9px;
+}
+.particle-iten:nth-child(1){
+ 
+    animation-name: particle_1;
+    animation-delay: -200ms;
+    
+}
+@keyframes particle_1{
+    0%{
+        transform: translate3d(55vw, 79vh, 22px);
+    }
+    50%{
+        opacity: .5;
+        transform: translate3d(60vw, 61vh, 9px);
+    }
+    100%{
+        transform: translate3d(55vw, 79vh, 22px);
+    }
+}
+.particle-iten:nth-child(2){
+    
+    animation-name: particle_2;
+    animation-delay: -250ms;
+   
+}
+@keyframes particle_2{
+    0%{
+        opacity: .2;
+        transform: translate3d(5vw, 40vh, 22px);
+    }
+    50%{
+        opacity: .5;
+        transform: translate3d(18vw, 25vh, 5px);
+    }
+    100%{
+        opacity: .2;
+        transform: translate3d(5vw, 40vh, 22px);
+    }
+   
+}
+.particle-iten:nth-child(3){
+    
+    animation-name: particle_3;
+    animation-delay: -400ms;
+   
+}
+@keyframes particle_3{
+    0%{
+        opacity: .7;
+        transform: translate3d(55vw, 10vh, 40px);
+    }
+    50%{
+        opacity: .4;
+        transform: translate3d(75vw, 30vh, 10px);
+    } 
+    100%{
+        opacity: .7;
+        transform: translate3d(55vw, 10vh, 40px);
+    }
+}
+.particle-iten:nth-child(4){
+    
+    animation-name: particle_4;
+    animation-delay: -150ms;
+    
+}
+@keyframes particle_4{
+    0%{
+        opacity: .6;
+        transform: translate3d(90vw, 79vh, 22px);
+    }
+    50%{
+        opacity: .7;
+        transform: translate3d(80vw, 51vh, 9px);
+    }
+    100%{
+        opacity: .6;
+        transform: translate3d(90vw, 79vh, 22px);
+    }
+}
+.particle-iten:nth-child(5){
+    
+    animation-name: particle_5;
+    animation-delay: -600ms;
+    
+}
+@keyframes particle_5{
+    0%{
+        opacity: 1;
+        transform: translate3d(80vw, 20vh, 22px);
+    }
+    50%{
+        opacity: .8;
+        transform: translate3d(85vw, 37vh, 9px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate3d(80vw, 20vh, 22px);
+    }
+}
+.particle-iten:nth-child(6){
+ 
+    animation-name: particle_6;
+    animation-delay: -200ms;
+    
+}
+@keyframes particle_6{
+    0%{
+        opacity: .2;
+        transform: translate3d(15vw, 14vh, 22px);
+    }
+    50%{
+        opacity: .1;
+        transform: translate3d(23vw, 18vh, 9px);
+    }
+    100%{
+        opacity: .2;
+        transform: translate3d(15vw, 14vh, 22px);
+    }
+}
+.particle-iten:nth-child(7){
+  
+    animation-name: particle_7;
+    animation-delay: -400ms;
+    
+}
+@keyframes particle_7{
+    0%{
+        opacity: .7;
+        transform: translate3d(30vw, 80vh, 22px);
+    }
+    50%{
+        opacity: .9;
+        transform: translate3d(38vw, 76vh, 9px);
+    }
+    100%{
+        opacity: .7;
+        transform: translate3d(30vw, 80vh, 22px);
+    }
+}
+.particle-iten:nth-child(8){
+    
+    animation-name: particle_8;
+    animation-delay: -800ms;
+    
+}
+@keyframes particle_8{
+    0%{
+        opacity: 1;
+        transform: translate3d(10vw, 86vh, 22px);
+    }
+    50%{
+        opacity: .9;
+        transform: translate3d(15vw, 90vh, 9px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate3d(10vw, 86vh, 22px);
+    }
+}
+.particle-iten:nth-child(9){
+    
+    animation-name: particle_9;
+    animation-delay: -100ms;
+    
+}
+@keyframes particle_9{
+    0%{
+        opacity: .5;
+        transform: translate3d(5vw, 8vh, 22px);
+    }
+    50%{
+        opacity: .7;
+        transform: translate3d(8vw, 10vh, 9px);
+    }
+    100%{
+        opacity: .5;
+        transform: translate3d(5vw, 8vh, 22px);
+    }
+}
+.particle-iten:nth-child(10){
+    
+    animation-name: particle_10;
+    animation-delay: -800ms;
+    
+}
+@keyframes particle_10{
+    0%{
+        opacity: .6;
+        transform: translate3d(45vw, 8vh, 22px);
+    }
+    50%{
+        opacity: 1;
+        transform: translate3d(40vw, 16vh, 9px);
+    }
+    100%{
+        opacity: .6;
+        transform: translate3d(45vw, 8vh, 22px);
+    }
+}
+.particle-iten:nth-child(11){
+    
+    animation-name: particle_11;
+    animation-delay: -1000ms;
+    
+}
+@keyframes particle_11{
+    0%{
+        opacity: .2;
+        transform: translate3d(95vw, 95vh, 22px);
+    }
+    50%{
+        opacity: .3;
+        transform: translate3d(80vw, 80vh, 9px);
+    }
+    100%{
+        opacity: .2;
+        transform: translate3d(95vw, 95vh, 22px);
+    }
+}
+.particle-iten:nth-child(12){
+    
+    animation-name: particle_12;
+    animation-delay: -340ms;
+    
+}
+@keyframes particle_12{
+    0%{
+        opacity: .3;
+        transform: translate3d(75vw, 70vh, 22px);
+    }
+    50%{
+        opacity: .1;
+        transform: translate3d(80vw, 76vh, 9px);
+    }
+    100%{
+        opacity: .3;
+        transform: translate3d(75vw, 70vh, 22px);
+    }
+}
+.particle-iten:nth-child(13){
+    
+    animation-name: particle_13;
+    animation-delay: -100ms;
+    
+}
+@keyframes particle_13{
+    0%{
+        opacity: .4;
+        transform: translate3d(45vw, 50vh, 22px);
+    }
+    50%{
+        opacity: .2;
+        transform: translate3d(40vw, 65vh, 9px);
+    }
+    100%{
+        opacity: .4;
+        transform: translate3d(45vw, 50vh, 22px);
+    }
+}
+.particle-iten:nth-child(14){
+    
+    animation-name: particle_14;
+    animation-delay: -100ms;
+    
+}
+@keyframes particle_14{
+    0%{
+        opacity: .4;
+        transform: translate3d(35vw, 20vh, 22px);
+    }
+    50%{
+        opacity: .2;
+        transform: translate3d(40vw, 25vh, 9px);
+    }
+    100%{
+        opacity: .4;
+        transform: translate3d(35vw, 20vh, 22px);
+    }
+}
+.particle-iten:nth-child(15){
+    
+    animation-name: particle_15;
+    animation-delay: -550ms;
+    
+}
+@keyframes particle_15{
+    0%{
+        opacity: .4;
+        transform: translate3d(20vw, 50vh, 22px);
+    }
+    50%{
+        opacity: .7;
+        transform: translate3d(24vw, 39vh, 9px);
+    }
+    100%{
+        opacity: .4;
+        transform: translate3d(20vw, 50vh, 22px);
+    }
+}
