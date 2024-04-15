@@ -1,4 +1,7 @@
 @media screen and (min-width: 992px) {
+    section.home{ 
+        height: 100vh;
+    }
     .home-container{
         width: calc(100% - 75px);
     }

@@ -124,3 +124,17 @@ footer.footer p {
     padding: .5rem 0;
     font-size: 10px;
 }
+
+/*scroll animation*/
+.hidden{
+    opacity: 0;
+    filter: blur(2px);
+    transform: translateY(15%);
+    transition: all 1.5s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transition: all 1.5s;
+    transform: translateY(0%);
+}

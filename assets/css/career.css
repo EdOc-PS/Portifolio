@@ -25,6 +25,10 @@ section.career .career-container {
  
 }
 
+.another-info-career .technologies-career{
+    margin: 25px 0;
+}
+
 .another-info-career .technologies-career .career-tec-content{
     flex-wrap: wrap;
     justify-content: center;

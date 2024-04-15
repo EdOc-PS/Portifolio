@@ -13,7 +13,8 @@ class CardsCareer extends HTMLElement {
         cardCareer.setAttribute("class", "card-career");
         
         const cardItens = document.createElement("div");
-        cardItens.setAttribute("class", "career-itens");
+        cardItens.setAttribute("class", "career-itens hidden");
+       
         
         const cardControl = document.createElement("div");
         cardControl.setAttribute("class", "career-control");
@@ -59,6 +60,9 @@ class CardsCareer extends HTMLElement {
         const side = this.getAttribute("side") || "left";
         this.sides(side, cardCareer);
 
+        const news = this.getAttribute("new") || "no";
+        this.containerNew(news, careerLine, careerBall);
+
         return cardCareer;
     }
 
@@ -68,6 +72,7 @@ class CardsCareer extends HTMLElement {
         .card-career{
             display: flex;
             height: 10vh;
+         
         }
         .career-itens{
             display: flex;
@@ -78,7 +83,10 @@ class CardsCareer extends HTMLElement {
             padding: 0 .8rem;
             background: linear-gradient(150deg, #23272FB3, #333A45 98%);
             border-radius: 10px;
+           
         }
+        
+        
         .career-control{
             display: flex;
             flex-direction: row-reverse;
@@ -117,7 +125,9 @@ class CardsCareer extends HTMLElement {
             background-color: transparent;
             border: 3px solid #08FFC8;
         }
-        
+        .pusle-ball{
+            animation: pulse 3s infinite;
+        }
         
         .career-line {
             height: 100%;
@@ -126,6 +136,7 @@ class CardsCareer extends HTMLElement {
             background: #08FFC8;
          
         }
+        
         @media screen and (min-width: 992px) {
             .card-career {
                 display: flex;
@@ -173,6 +184,23 @@ class CardsCareer extends HTMLElement {
                 width: 100%;
             }
         }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(.95);
+                box-shadow: 0 0 0 #08FFC8;
+            }
+        
+            60% {
+                transform: scale(1);
+                box-shadow: 0 0 15px #08FFC8;
+            }
+        
+            100% {
+                transform: scale(.95);
+                box-shadow: 0 0 0 #08FFC8;
+            }
+        }
         `;
         return style;
     }
@@ -183,13 +211,19 @@ class CardsCareer extends HTMLElement {
                 card.style.flexDirection = 'row-reverse';
             }else{
                 card.style.flexDirection = 'column-reverse';
-            }
-            
-            
-                
-       
+            }  
         }
         
     }
-}
+    containerNew(news, line, ball){
+        if(news === "yes"){
+            ball.classList.add("pusle-ball");
+
+            if(window.innerWidth < 992){
+                line.style.width = "0%"
+            }else{
+                line.style.height = "0%"
+            }
+        }}
+    }
 customElements.define("card-career", CardsCareer);
