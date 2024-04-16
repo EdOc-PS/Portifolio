@@ -72,43 +72,6 @@ nav.menu #menu-ul .menu-itens {
     transition: .5s ease-in;
 }
 
-
-
-
-/*Comportamentos do nav quando estiver expandida*/
-nav.menu.expanded {
-    height: 90vh;
-}
-
-nav.menu #menu-ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 60vh;
-    position: relative;
-}
-
-nav.menu #menu-ul .menu-itens {
-    margin:  0.5rem 1rem;
-}
-
-nav.menu.expanded #menu-ul .menu-itens {
-    opacity: 1;
-}
-
-#menu-ul .menu-itens .menu-a-btn {
-    overflow-x: hidden;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-    width: 90vw;
-    max-height: 15vh;
-    background: linear-gradient(20deg, #23272FB3, #333A45);
-    border: 2.5px solid #333A45;
-    padding: 1.25rem 1rem 1.25rem 1rem;
-}
-
 footer.footer{
     display: grid;
     place-items: center;
@@ -125,16 +88,104 @@ footer.footer p {
     font-size: 10px;
 }
 
+
+/*Comportamentos do nav quando estiver expandida*/
+nav.menu.expanded {
+    height: 100vh;
+
+}
+
+nav.menu #menu-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    position: relative;
+}
+
+nav.menu #menu-ul .menu-itens {
+    margin:  0.5rem 1rem;
+}
+
+nav.menu.expanded #menu-ul .menu-itens {
+    opacity: 1;
+}
+
+#menu-ul .menu-itens .menu-a-btn,
+.discover-container .discover-repository {
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 90vw;
+    max-height: 15vh;
+    background: linear-gradient(20deg, #23272FB3, #333A45);
+    border: 2.5px solid #333A45;
+    padding: 1.25rem 1rem 1.25rem 1rem;
+}
+
+nav.menu .discover-container{
+    display: flex;
+    height: 41vh;
+    align-items:end;
+    justify-content: center;
+    padding: 1rem;
+    gap: 10px;
+    flex-direction: row-reverse;
+}
+.discover-container .change-color{
+    background-color: #D2E0FB;
+    
+}
+.discover-container .change-color i{
+    color: #23272F;
+    font-size: 30px;
+}
+.discover-container .change-color .menu-txt,
+.discover-container .change-language .menu-txt{
+    display: none;
+}
+.discover-container .change-language{
+    background: linear-gradient(20deg, #23272FB3, #333A45);
+    border: 2.5px solid #333A45;
+    
+}
+.discover-container .change-language i{
+    font-size: 22px;
+}
+
+.discover-container .discover-repository{
+    border-radius:20px;
+    width: 65vw;
+}
+.discover-container .change-color,
+.discover-container .change-language{
+    display: flex;
+    align-items: center;
+    height: 8vh;
+    width: 22vw;
+    border-radius:  20px;
+    justify-content: center;
+    
+      
+}
+
 /*scroll animation*/
 .hidden{
     opacity: 0;
-    filter: blur(2px);
+    filter: blur(1px);
     transform: translateY(15%);
     transition: all 1.5s;
 }
 .show{
     opacity: 1;
     filter: blur(0);
-    transition: all 1.5s;
+    transition: all 1.25s;
     transform: translateY(0%);
+}
+
+/*modo claro*/
+.light{
+    background-color: #F7F7F9;
 }

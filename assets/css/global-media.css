@@ -1,11 +1,13 @@
-/*Estilização global*/
-@media screen and (min-width:992px)  {
+
+@media screen and (min-width: 992px) {
+
+    /*Estilização global*/
     button, li, .menu-a-btn{
         cursor: pointer;
     }
-}
-
-@media screen and (min-width: 992px) {
+    .menu-txt{
+        display: none;
+    }
 
     /*Responsividade do menu*/
     nav.menu {
@@ -13,6 +15,8 @@
         min-height: 100vh;
         right: 0;
         top: 0;
+        border-bottom: 0;
+        border-left: 1px solid #333A45;;
     }
 
     #menu-expand-btn {
@@ -33,7 +37,14 @@
         justify-content: start;
         margin-top: 12.5vh;
     }
-
+    
+    nav.menu #menu-ul #menu-line{
+        background-color: #99A1B3 ;
+        width: 75%;
+        height: 3px;
+        border-radius: 20px;
+        opacity: .4;
+    }
     nav.menu #menu-ul .menu-itens {
         margin: .5rem 0 .5rem 0;
 
@@ -63,10 +74,34 @@
     nav.menu #menu-ul .menu-itens {
         opacity: 1;
     }
-    .menu-itens .menu-a-btn .menu-txt {
+
+
+    nav.menu .discover-container{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .discover-container .change-color,
+    .discover-container .change-language {
+        border: 0;
+        height: 55px;
+        max-width: 55px;
+        padding: 0;
+        margin: .5rem;
+    }
+    .discover-container .change-language{
+        background: transparent;
+    }
+    .discover-container .change-language i{
+        font-size: 18px;
+    }
+    .discover-container .change-color i{
+        font-size: 22px;
+    }
+    
+    .discover-container .discover-repository{ 
         display: none;
     }
-
 
 }
 
@@ -76,15 +111,22 @@
         width: 288px;
     }
    
-    nav.menu.expanded #menu-ul .menu-itens .menu-a-btn {
+    nav.menu.expanded #menu-ul .menu-itens .menu-a-btn,
+    nav.menu.expanded .discover-container .change-color,
+    nav.menu.expanded .discover-container .change-language {
         max-width: 15rem;
         display: flex;
         justify-content: space-between;
         flex-direction: row;
         padding: .5rem 1rem .5rem 1rem;
     }
-
-    nav.menu.expanded .menu-itens .menu-a-btn .menu-txt {
+    nav.menu.expanded .change-color .menu-txt{
+        color: #23272F;
+        font-weight: 600;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    nav.menu.expanded .menu-txt {
         display: block;        
     }
     

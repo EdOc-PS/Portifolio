@@ -14,12 +14,14 @@
     }
     
     .home-container .home-mensager h1 {
-        font-size: 72px;
+        font-size: 82px;
         word-wrap: break-word;
-        width: 310px;
+        width: 350px;
     }
     .home-container .home-mensager img {
-        width: 380px;
+        width: 400px;
         height: auto;
     }
+
+   
 }
