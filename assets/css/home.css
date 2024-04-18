@@ -31,7 +31,7 @@ section.home{
     position: absolute;
     bottom: 5%;
 }
-.home-container .home-explore .home-a-btn{
+.home-a-btn{
     font-size: 18px;
     background: linear-gradient(50deg, #23272FB3, #333A45 90%);
     border-radius:20px;

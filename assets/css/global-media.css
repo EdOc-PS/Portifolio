@@ -79,6 +79,8 @@
     nav.menu .discover-container{
         display: flex;
         align-items: center;
+        justify-content:end;
+        height: 32vh;
         flex-direction: column-reverse;
     }
     .discover-container .change-color,

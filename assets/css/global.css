@@ -41,13 +41,14 @@ ul {
 }
 
 /* Especifico */
-nav.menu i,
+.menu-icon i,
 .menu-txt {
     color: #99A1B3;
+    font-weight: 600;
 }
 
 /*barra de navegar*/
-nav.menu {
+.menu {
     position: fixed;
     background-color: #23272F;
     border-bottom: 1px solid #333A45;
@@ -112,8 +113,8 @@ nav.menu.expanded #menu-ul .menu-itens {
     opacity: 1;
 }
 
-#menu-ul .menu-itens .menu-a-btn,
-.discover-container .discover-repository {
+.menu-a-btn,
+.discover-repository {
     overflow-x: hidden;
     display: flex;
     justify-content: space-between;
@@ -134,7 +135,8 @@ nav.menu .discover-container{
     gap: 10px;
     flex-direction: row-reverse;
 }
-.discover-container .change-color{
+
+.change-color{
     background-color: #D2E0FB;
     
 }
@@ -185,7 +187,3 @@ nav.menu .discover-container{
     transform: translateY(0%);
 }
 
-/*modo claro*/
-.light{
-    background-color: #F7F7F9;
-}

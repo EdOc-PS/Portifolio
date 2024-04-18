@@ -1,0 +1,40 @@
+/*global*/
+.light,
+.light-nav{
+    background-color: #F6F7F8;
+}
+.light-nav{
+    opacity: .98;
+
+}
+.light2{
+    background-color: #FFF;
+}
+.light-gradiente-text,
+.light-gradiente{
+    background: linear-gradient(20deg, #f2e2f6 0%, #dcecfd 50%, #def5ee 100%);
+    border: 2px solid #78819347;
+}
+.light-gradiente-text,
+.light-btnTxt{
+    color: #788193 !important;
+
+}
+.light-nav{
+    border-bottom: 1px solid #EBECF0;
+    box-shadow: 0 0 10px #727272;
+    
+}
+
+.light-btnColor{
+    background-color: #23272F;
+}
+
+.fi-sr-moon{
+    color: #F6F7F8 !important;
+}
+/*home*/
+.home-color-write{
+    color: #788193;
+
+}

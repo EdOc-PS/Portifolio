@@ -18,7 +18,7 @@ section.about {
 .about-social-container {
     display: grid;
     place-items: center;
-    background: #23272F;
+    background-color: #23272F;
     border: .5px solid #333A45;
     box-shadow: 0 0 5px #333A45;
     padding: 1rem;
