@@ -1,14 +1,11 @@
 /*global*/
 .light,
 .light-nav{
-    background-color: #F6F7F8;
-}
-.light-nav{
-    opacity: .98;
-
-}
-.light2{
     background-color: #FFF;
+}
+
+.light_2{
+    background-color: #EEF2F4;
 }
 .light-gradiente-text,
 .light-gradiente{
@@ -16,7 +13,9 @@
     border: 2px solid #78819347;
 }
 .light-gradiente-text,
-.light-btnTxt{
+.light-global-color,
+
+.home-color-write{
     color: #788193 !important;
 
 }
@@ -33,8 +32,16 @@
 .fi-sr-moon{
     color: #F6F7F8 !important;
 }
-/*home*/
-.home-color-write{
-    color: #788193;
 
+.light-container{
+    background-color: #F6F7F9;
+    border: 1px solid #DADBDD;
+    box-shadow: none;
+}
+.light-infoMore-color {
+    color: #98a7c3 !important;
+}
+.light-container_2{
+    background-color: #D2E0FB;
+    border: 1px solid #98a7c3;
 }

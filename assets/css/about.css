@@ -50,7 +50,7 @@ section.about {
 
 
 
-.about-social-container .about-mysocial .mysocial-ul {
+.mysocial-ul {
     display: grid;
     place-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -62,7 +62,7 @@ section.about {
     overflow-x: scroll;
 }
 
-.about-mysocial .mysocial-ul .mysocial-itens a {
+.mysocial-itens a {
     width: 3.2rem;
     height: 3.2rem;
     font-size: 1.6rem;
@@ -129,8 +129,8 @@ section.about .about-info-container {
 }
 
 
-.about-info-container .about-info-text,
-.about-more-infos .about-more-text {
+.about-info-text,
+.about-more-text {
     padding: 1.3rem 1rem;
     border-radius: 20px;
     background: #23272F;
@@ -147,7 +147,7 @@ section.about .about-info-container {
 }
 
 .about-info-container .about-info-text i,
-.about-info-container .about-more-text i {
+.about-more-text i {
     font-size: 2rem;
 }
 
