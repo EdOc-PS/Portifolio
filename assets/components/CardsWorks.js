@@ -145,11 +145,26 @@ class CardWorks extends HTMLElement {
         
         .card-info-icons img{
             width: 20px;
-            border-radius: 5px;
+            border-radius: 10px;
             padding: .3rem;
             background-color: #333A45;
         }
 
+        .light-gradiente{
+            background: linear-gradient(20deg, #f2e2f6 0%, #dcecfd 50%, #def5ee 100%);
+            border: 1px solid #78819347;
+        }
+
+        .light-background{
+            background-color: #FFFFFF !important;
+            opacity: .8 !important;
+            border: 1px solid #CAD0E2 !important;
+        }
+
+        .home-color-write{
+            color: #788193 !important;
+        }
+      
         @media screen and (min-width: 992px) {
             .card-project-container{
                 width: 215px;

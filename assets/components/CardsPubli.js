@@ -74,6 +74,13 @@ class CardsPubli extends HTMLElement {
             h5, p{
                 margin: 0;
             }
+            .light-gradiente{
+                background: linear-gradient(20deg, #f2e2f6 0%, #dcecfd 50%, #def5ee 100%);
+                border: 1px solid #78819347;
+            }
+            .home-color-write{
+                color: #788193 !important;
+            }
         `;
         return style;
     }

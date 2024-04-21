@@ -136,7 +136,13 @@ class CardsCareer extends HTMLElement {
             background: #08FFC8;
          
         }
-        
+
+        .light-gradiente{
+            background: linear-gradient(20deg, #f2e2f6 0%, #dcecfd 50%, #def5ee 100%);
+        }
+        .home-color-write{
+            color: #788193 !important;
+        }
         @media screen and (min-width: 992px) {
             .card-career {
                 display: flex;

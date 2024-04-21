@@ -10,7 +10,7 @@
     }
 
     /*Responsividade do menu*/
-    nav.menu {
+    .menu {
         width: 75px;
         min-height: 100vh;
         right: 0;
@@ -24,11 +24,13 @@
         width: 55px;
         margin: .5rem .5rem 0 .55rem;
         border-radius: 20px;
+        transition: all 7.5s;
     }
 
     #menu-expand-btn:hover {
         background: linear-gradient(20deg, rgba(35, 39, 47, 0.7) , #333a45);
         backdrop-filter: blur(5px);
+        transition: all 7.5s;
     }
 
     nav.menu #menu-ul {

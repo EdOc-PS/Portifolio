@@ -21,7 +21,7 @@
         display: flex;
         justify-content: space-between;
         width: 100%;
-        justify-content: space-evenly;
+        align-items: center;
     }
 
     .career-container .historic-career-container {

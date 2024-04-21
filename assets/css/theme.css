@@ -11,6 +11,7 @@
 .light-gradiente{
     background: linear-gradient(20deg, #f2e2f6 0%, #dcecfd 50%, #def5ee 100%);
     border: 2px solid #78819347;
+
 }
 .light-gradiente-text,
 .light-global-color,
@@ -24,7 +25,9 @@
     box-shadow: 0 0 10px #727272;
     
 }
-
+.light-gradiente-btn:hover {
+    background: linear-gradient(20deg, #f2e2f6 0%, #dcecfd 50%, #def5ee 100%) !important;
+}
 .light-btnColor{
     background-color: #23272F;
 }
@@ -44,4 +47,12 @@
 .light-container_2{
     background-color: #D2E0FB;
     border: 1px solid #98a7c3;
+}
+@media screen and (min-width: 992px) {
+
+    .light-nav{  
+        border-left: 1px solid #DADBDD;
+        box-shadow: none;   
+    }
+
 }

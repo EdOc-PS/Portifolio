@@ -19,7 +19,10 @@ var toLight = {
         body: document.querySelector("body"),
         iconsColor: document.querySelectorAll('i'),
         p: document.querySelectorAll('p'),
-        h4: document.querySelectorAll('h4')
+        h4: document.querySelectorAll('h4'),
+        cardCareer: document.querySelectorAll('card-career'),
+        cardPubli: document.querySelectorAll('card-publi'),
+        cardWorks: document.querySelectorAll('card-works')
     },
     several:{
         socialContainer: document.querySelector('.about-social-container'),
@@ -32,9 +35,18 @@ var toLight = {
         infoTxt: document.querySelector('.about-info-text'),
         infoMore: document.querySelectorAll('.about-more-text'),
         iconsInfoMore: document.querySelectorAll('.about-more-text i'),
+        histCareer: document.querySelector('.historic-career-container'),
+        tecCareer: document.querySelector('.career-tec-content'),
+        publiCareer: document.querySelector('.career-publi-content'), 
+        workContainer: document.querySelector('.container-cards'), 
     }
+
     
 }
+
+
+
+
 
 //menu se expandir
 variable.nav.btnMenuExpand.addEventListener('click', function () {
@@ -48,6 +60,7 @@ variable.nav.btnColor.addEventListener('click', function () {
 
         variable.icons.iconBtnColor.classList.toggle("fi-sr-moon");
         variable.nav.menu.classList.toggle("light-nav");
+        variable.nav.btnMenuExpand.classList.toggle("light-gradiente-btn")
         variable.nav.btnMenu.forEach((btnMenu) => {
             btnMenu.classList.toggle("light-gradiente");
         });
@@ -75,14 +88,45 @@ variable.nav.btnColor.addEventListener('click', function () {
         toLight.several.aboutDescriptionSpan.classList.toggle("home-color-write");
         toLight.several.socialUl.classList.toggle("light-gradiente")
         toLight.several.infoTxt.classList.toggle("light-container")
-
+        toLight.several.histCareer.classList.toggle("light-container")
+        toLight.several.tecCareer.classList.toggle("light-container")
+        toLight.several.publiCareer.classList.toggle("light-container")
+        toLight.several.workContainer.classList.toggle("light-container")
+      
         toLight.several.infoMore.forEach((infoMore)=> {
             infoMore.classList.toggle("light-container_2")
         });
 
         toLight.several.iconsInfoMore.forEach((infoMore) =>{
             infoMore.classList.toggle("light-infoMore-color")
-        })
+        });
+      
+        toLight.global.cardCareer.forEach((cardCareer) =>{ 
+            var itensShadow = cardCareer.shadowRoot;
+            var careerItens = itensShadow.querySelector('.career-itens')
+            var careerItensh3 = itensShadow.querySelector('.career-control h3')
+            careerItens.classList.toggle("light-gradiente")
+            careerItensh3.classList.toggle("home-color-write")
+        });
+        toLight.global.cardPubli.forEach((cardPubli) =>{ 
+            var itensShadow = cardPubli.shadowRoot;
+            var publiBody = itensShadow.querySelector('.publi-body')
+            var publiInfoh5 = itensShadow.querySelector('.publi-info h5')
+            publiBody.classList.toggle("light-gradiente")
+            publiInfoh5.classList.toggle("home-color-write")
+        });
+        toLight.global.cardWorks.forEach((cardWorks) =>{ 
+            var itensShadow = cardWorks.shadowRoot;
+            var projectContainer = itensShadow.querySelector('.card-project-container')
+            var infoTxt = itensShadow.querySelector('.card-info-txt')
+            var infoTxtH5 = itensShadow.querySelector('.card-info-txt h5')
+            var infoIcon = itensShadow.querySelector('.card-info-icons img')
+            
+            projectContainer.classList.toggle("light-gradiente")
+            infoTxt.classList.toggle("light-background")
+            infoTxtH5.classList.toggle("home-color-write")
+            infoIcon.classList.toggle("light-background")
+        });
         
 })      
 

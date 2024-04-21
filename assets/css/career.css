@@ -14,7 +14,7 @@ section.career .career-container {
    
 }
 
-.career-container .historic-career-container {
+.historic-career-container {
     height: 48vh;
     flex-direction: column;
     background: #23272F;
@@ -33,9 +33,8 @@ section.career .career-container {
     flex-wrap: wrap;
     justify-content: center;
 }
-
-.another-info-career .technologies-career .career-tec-content,
-.another-info-career .publi-career .career-publi-content{
+.career-tec-content,
+.career-publi-content{
     background: #23272F;
     border-radius: 10px;
     border: .5px solid #333A45;
