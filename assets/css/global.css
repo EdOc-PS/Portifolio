@@ -138,11 +138,11 @@ nav.menu .discover-container{
 
 .change-color{
     background-color: #D2E0FB;
-    
 }
 .discover-container .change-color i{
     color: #23272F;
     font-size: 30px;
+    
 }
 .discover-container .change-color .menu-txt,
 .discover-container .change-language .menu-txt{
@@ -177,13 +177,13 @@ nav.menu .discover-container{
 .hidden{
     opacity: 0;
     filter: blur(1px);
-    transform: translateY(15%);
-    transition: all 1.5s;
+    transform: translateY(10%);
+    transition: all 1.1s;
 }
 .show{
     opacity: 1;
     filter: blur(0);
-    transition: all 1.25s;
+    transition: all 1.1s;
     transform: translateY(0%);
 }
 

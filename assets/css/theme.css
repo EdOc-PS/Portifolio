@@ -15,19 +15,19 @@
 }
 .light-gradiente-text,
 .light-global-color,
-
 .home-color-write{
     color: #788193 !important;
 
+}
+.light-global-color_2{
+    color: #EEF2F4 !important;  
 }
 .light-nav{
     border-bottom: 1px solid #EBECF0;
     box-shadow: 0 0 10px #727272;
     
 }
-.light-gradiente-btn:hover {
-    background: linear-gradient(20deg, #f2e2f6 0%, #dcecfd 50%, #def5ee 100%) !important;
-}
+
 .light-btnColor{
     background-color: #23272F;
 }
@@ -54,5 +54,10 @@
         border-left: 1px solid #DADBDD;
         box-shadow: none;   
     }
-
+    .light-gradiente-btn:hover {
+        background: linear-gradient(20deg, #f2e2f6 0%, #dcecfd 50%, #def5ee 100%) !important;
+    }
+    .light-a-btn:hover {
+        background-color: #23272F;
+    }
 }

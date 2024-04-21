@@ -1,11 +1,13 @@
-
 @media screen and (min-width: 992px) {
 
     /*Estilização global*/
-    button, li, .menu-a-btn{
+    button,
+    li,
+    .menu-a-btn {
         cursor: pointer;
     }
-    .menu-txt{
+
+    .menu-txt {
         display: none;
     }
 
@@ -16,7 +18,8 @@
         right: 0;
         top: 0;
         border-bottom: 0;
-        border-left: 1px solid #333A45;;
+        border-left: 1px solid #333A45;
+        ;
     }
 
     #menu-expand-btn {
@@ -28,7 +31,7 @@
     }
 
     #menu-expand-btn:hover {
-        background: linear-gradient(20deg, rgba(35, 39, 47, 0.7) , #333a45);
+        background: linear-gradient(20deg, rgba(35, 39, 47, 0.7), #333a45);
         backdrop-filter: blur(5px);
         transition: all 7.5s;
     }
@@ -39,14 +42,15 @@
         justify-content: start;
         margin-top: 12.5vh;
     }
-    
-    nav.menu #menu-ul #menu-line{
-        background-color: #99A1B3 ;
+
+    nav.menu #menu-ul #menu-line {
+        background-color: #99A1B3;
         width: 75%;
         height: 3px;
         border-radius: 20px;
         opacity: .4;
     }
+
     nav.menu #menu-ul .menu-itens {
         margin: .5rem 0 .5rem 0;
 
@@ -66,25 +70,30 @@
     }
 
     #menu-ul .menu-itens .menu-a-btn:hover {
-        border: 3px solid #08FFC8;
+        background-color: #08FFC8;
+    }
 
+    #menu-ul .menu-itens .menu-a-btn:hover .menu-txt {
+        color: #23272F;
     }
-    #menu-ul .menu-itens .menu-a-btn:hover i{
-       color:  #08FFC8;
-       text-shadow: 0px 0px 20px;
+
+    #menu-ul .menu-itens .menu-a-btn:hover i {
+        color: #23272F;
     }
+
     nav.menu #menu-ul .menu-itens {
         opacity: 1;
     }
 
 
-    nav.menu .discover-container{
+    nav.menu .discover-container {
         display: flex;
         align-items: center;
-        justify-content:end;
+        justify-content: end;
         height: 32vh;
         flex-direction: column-reverse;
     }
+
     .discover-container .change-color,
     .discover-container .change-language {
         border: 0;
@@ -93,17 +102,20 @@
         padding: 0;
         margin: .5rem;
     }
-    .discover-container .change-language{
+
+    .discover-container .change-language {
         background: transparent;
     }
-    .discover-container .change-language i{
+
+    .discover-container .change-language i {
         font-size: 18px;
     }
-    .discover-container .change-color i{
+
+    .discover-container .change-color i {
         font-size: 22px;
     }
-    
-    .discover-container .discover-repository{ 
+
+    .discover-container .discover-repository {
         display: none;
     }
 
@@ -114,7 +126,7 @@
     nav.menu.expanded {
         width: 288px;
     }
-   
+
     nav.menu.expanded #menu-ul .menu-itens .menu-a-btn,
     nav.menu.expanded .discover-container .change-color,
     nav.menu.expanded .discover-container .change-language {
@@ -124,14 +136,16 @@
         flex-direction: row;
         padding: .5rem 1rem .5rem 1rem;
     }
-    nav.menu.expanded .change-color .menu-txt{
+
+    nav.menu.expanded .change-color .menu-txt {
         color: #23272F;
         font-weight: 600;
         font-size: 16px;
         text-transform: uppercase;
     }
+
     nav.menu.expanded .menu-txt {
-        display: block;        
+        display: block;
     }
-    
+
 }

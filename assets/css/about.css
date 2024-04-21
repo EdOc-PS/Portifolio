@@ -68,8 +68,7 @@ section.about {
     font-size: 1.6rem;
 }
 
-
-.about-social-container .about-mycurriculum .mycurriculum-btn {
+.mycurriculum-btn {
     background-color: #08FFC8;
     color: #23272F;
     width: 85vw;

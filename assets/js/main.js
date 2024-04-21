@@ -39,6 +39,8 @@ var toLight = {
         tecCareer: document.querySelector('.career-tec-content'),
         publiCareer: document.querySelector('.career-publi-content'), 
         workContainer: document.querySelector('.container-cards'), 
+        btnAbout: document.querySelector('.mycurriculum-btn'),
+        btnAboutIcon: document.querySelector('.mycurriculum-btn i')
     }
 
     
@@ -65,7 +67,7 @@ variable.nav.btnColor.addEventListener('click', function () {
             btnMenu.classList.toggle("light-gradiente");
         });
         variable.nav.txtMenu.forEach((btnTxt) => {
-            btnTxt.classList.toggle("light-btnTxt");
+            btnTxt.classList.toggle("light-global-color");
         });  
         variable.nav.btnColor.classList.toggle('light-btnColor');
 
@@ -86,13 +88,15 @@ variable.nav.btnColor.addEventListener('click', function () {
         toLight.several.btnHome.classList.toggle("light-gradiente-text");
         toLight.several.aboutDescriptionH1.classList.toggle("home-color-write");
         toLight.several.aboutDescriptionSpan.classList.toggle("home-color-write");
-        toLight.several.socialUl.classList.toggle("light-gradiente")
-        toLight.several.infoTxt.classList.toggle("light-container")
-        toLight.several.histCareer.classList.toggle("light-container")
-        toLight.several.tecCareer.classList.toggle("light-container")
-        toLight.several.publiCareer.classList.toggle("light-container")
-        toLight.several.workContainer.classList.toggle("light-container")
-      
+        toLight.several.socialUl.classList.toggle("light-gradiente");
+        toLight.several.infoTxt.classList.toggle("light-container");
+        toLight.several.histCareer.classList.toggle("light-container");
+        toLight.several.tecCareer.classList.toggle("light-container");
+        toLight.several.publiCareer.classList.toggle("light-container");
+        toLight.several.workContainer.classList.toggle("light-container");
+        toLight.several.btnAbout.classList.toggle("light-global-color_2");
+        toLight.several.btnAboutIcon.classList.toggle("light-global-color_2");
+       
         toLight.several.infoMore.forEach((infoMore)=> {
             infoMore.classList.toggle("light-container_2")
         });
@@ -134,7 +138,8 @@ variable.nav.btnColor.addEventListener('click', function () {
 //botão fazendo menu se desexpandir
 variable.nav.btnMenu.forEach(function (btn) {
     btn.addEventListener('click', function () {
-        variable.nav.menu.classList.toggle("expanded");
+        variable.nav.menu.classList.remove("expanded");
+        variable.icons.iconBtnMenu.classList.remove("fi-sr-x");
     });
 });
 
