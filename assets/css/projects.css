@@ -8,7 +8,7 @@ section.section-projects {
 .container-cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: .8rem;
     background: #23272F;
     border: .5px solid #333A45;
     box-shadow: 0 0 5px #333A45;
