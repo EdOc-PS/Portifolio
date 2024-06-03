@@ -15,7 +15,7 @@ class CardsTec extends HTMLElement {
         tecInfo.setAttribute("class", "tec-info");
 
         const icon = document.createElement("img");
-        icon.src = "./assets/img/icons/"+this.getAttribute("icon");
+        icon.src = "./assets/images/icons/"+this.getAttribute("icon");
         icon.alt = "icon";
      
 

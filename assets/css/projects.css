@@ -63,12 +63,3 @@ section.section-projects {
 card-works {
     margin: .5rem 0;
 }
-
-card-works:nth-child(2){
-    transition-delay: 200ms;
-}
-
-card-works:nth-child(3){
-    transition-delay: 300ms;
-}
-

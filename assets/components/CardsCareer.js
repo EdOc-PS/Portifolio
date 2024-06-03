@@ -23,7 +23,7 @@ class CardsCareer extends HTMLElement {
         title.textContent = this.getAttribute("title");
 
         const icon = document.createElement("img");
-        icon.src = "./assets/img/icons/"+this.getAttribute("icon");
+        icon.src = "./assets/images/icons/"+this.getAttribute("icon");
         icon.alt = "icon";
      
         cardControl.appendChild(title);
@@ -106,6 +106,7 @@ class CardsCareer extends HTMLElement {
         }
         .career-local,
         .career-data{
+            text-transform: uppercase;
             font-size: 12px;
             color: #99A1B3;
         }

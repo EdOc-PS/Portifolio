@@ -46,16 +46,11 @@ var toLight = {
     
 }
 
-
-
-
-
 //menu se expandir
 variable.nav.btnMenuExpand.addEventListener('click', function () {
     variable.nav.menu.classList.toggle("expanded");
     variable.icons.iconBtnMenu.classList.toggle("fi-sr-x");
 })
-
 
 //btn de light mode
 variable.nav.btnColor.addEventListener('click', function () {

@@ -17,7 +17,7 @@ class CardWorks extends HTMLElement {
         cardImg.setAttribute("class", "card-project-img");
 
             const img = document.createElement("img");
-            img.src = "./assets/img/projects/"+this.getAttribute("image");
+            img.src = "./assets/images/projects/"+this.getAttribute("image");
             img.alt = "project"
 
             const progress = document.createElement("p");
@@ -50,7 +50,7 @@ class CardWorks extends HTMLElement {
             cardicons.setAttribute("class", "card-info-icons");
 
                 const icon = document.createElement("img");
-                icon.src = "./assets/img/icons/"+this.getAttribute("icone");
+                icon.src = "./assets/images/icons/"+this.getAttribute("icone");
                 icon.alt = "icon"
             
                 cardicons.appendChild(icon)
