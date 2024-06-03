@@ -179,8 +179,8 @@ section.about .about-info-container {
 }
 /*scroll animation*/
 .about-more-text:nth-child(2){
-    transition-delay: 200ms;
+    transition-delay: 100ms;
 }
 .about-more-text:nth-child(3){
-    transition-delay: 400ms;
+    transition-delay: 200ms;
 }
