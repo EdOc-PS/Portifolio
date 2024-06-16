@@ -74,7 +74,7 @@ class CardWorks extends HTMLElement {
         style.textContent = `
         .card-project-container {
             text-decoration: none;
-            width: 153px;
+            width: 160px;
             height: 190px;
             border-radius: 10px;
             background: linear-gradient(50deg, #23272FB3, #333A45 90%);

@@ -1,5 +1,4 @@
 section.section-projects {
-    height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -8,7 +7,7 @@ section.section-projects {
 .container-cards {
     display: flex;
     flex-wrap: wrap;
-    gap: .8rem;
+    gap: .5rem;
     background: #23272F;
     border: .5px solid #333A45;
     box-shadow: 0 0 5px #333A45;
