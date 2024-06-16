@@ -75,7 +75,7 @@ nav.menu #menu-ul .menu-itens {
 }
 
 footer.footer{
-    margin-top: 2rem;
+
     display: grid;
     place-items: center;
     position: relative;
